@@ -1,0 +1,70 @@
+[[package]]
+name = "certifi"
+version = "2021.10.8"
+description = "Python package for providing Mozilla's CA Bundle."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "cmu-graphics"
+version = "1.1.22"
+description = "The graphics framework used by CMU CS Academy, geared toward beginner CS students."
+category = "main"
+optional = false
+python-versions = ">=3.6, <4"
+
+[package.dependencies]
+certifi = ">=2020.6.20"
+Pillow = ">=7.2"
+pycairo = ">=1.20"
+pygame = ">=2"
+
+[[package]]
+name = "numpy"
+version = "1.22.3"
+description = "NumPy is the fundamental package for array computing with Python."
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "pillow"
+version = "9.1.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinx-rtd-theme (>=1.0)", "sphinxext-opengraph"]
+tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+
+[[package]]
+name = "pycairo"
+version = "1.21.0"
+description = "Python interface for cairo"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "pygame"
+version = "2.1.2"
+description = "Python Game Development"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.8.0,<3.9"
+content-hash = "a6d3c6846c327077924700bb3e623564aacab46f8206c2fe1a510d16cdec8f38"
+
+[metadata.files]
+certifi = []
+cmu-graphics = []
+numpy = []
+pillow = []
+pycairo = []
+pygame = []
