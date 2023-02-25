@@ -22,3 +22,7 @@ test_check = M.find('motivated')
 print(test_check)
 test_Check3 = M.replace('motivated','Smart',1)
 print(test_Check3)
+#concating is easy here
+N1 = " A A M Mustahid"
+concating = N1+" " + M
+print(concating)
