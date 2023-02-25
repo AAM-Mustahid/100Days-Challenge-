@@ -26,3 +26,8 @@ print(test_Check3)
 N1 = " A A M Mustahid"
 concating = N1+" " + M
 print(concating)
+incheck = "Mustahid is live in Dhaka Now a days"
+if ("Mustahid" in incheck):
+  print("Oh,Yes ")
+else:
+  print("Sorry we dont have any Mustahid here")

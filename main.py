@@ -1,4 +1,6 @@
-import day_02_StringAdvance
+#import day_02_StringAdvance
+import day_02
+
 #day 01
 # name = "Mustahid"
 # age = 20
