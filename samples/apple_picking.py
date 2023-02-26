@@ -47,6 +47,7 @@ drawApple(250, 155)
 drawApple(325, 50)
 drawApple(300, 160)
 
+
 def onMousePress(mouseX, mouseY):
     # When an apple is clicked, make it fall to the ground.
     for apple in apples.children:

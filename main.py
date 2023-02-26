@@ -1,5 +1,12 @@
 #import day_02_StringAdvance
-import day_02
+#import day_02
+#import math_Function
+#import if_else
+#import logical
+#import Exercise01
+#import Weight_converter
+#import while_Loop
+
 
 #day 01
 # name = "Mustahid"
