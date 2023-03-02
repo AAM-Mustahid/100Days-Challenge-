@@ -7,7 +7,11 @@
 #import Weight_converter
 #import while_Loop
 #import for_loop
-import car_game_assignment
+#import car_game_assignment
+#import list_exercise
+#import two_D_list
+import list1
+
 
 #day 01
 # name = "Mustahid"
