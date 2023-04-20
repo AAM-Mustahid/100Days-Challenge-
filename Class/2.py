@@ -25,4 +25,5 @@ item1 = item('Mobile',1000,'Red',10)
 
 print('Item Total Price is: ',item1.pay())
 item2 = item('Laptop',1000000,'White',1)
+item2.discount()
 print('Laptop price is :',item2.price)
